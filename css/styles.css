@@ -1,0 +1,94 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background:#000428;
+    height: 100vh;
+    font-family: 'Oxygen' , sans-serif;
+}
+
+/* header  */
+header{
+    background-color: #e8b125;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url(../images/restaurant-logo_large.png)no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+}
+.navbar-brand{
+    padding-top: 5px;
+}
+.navbar-brand h1{
+    font-family: 'Lora' ,serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+.navbar-brand a:hover ,
+.navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+}
+/* #nav-list{
+    margin-top: 10px;
+} */
+#nav-list a{
+    color: #000428;
+    text-align: center;
+    font-weight: bold;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+.container > h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    color:#e8b125 ;
+}
+.container > hr{
+    width: 50%;
+    background-color:#e8b125 ;
+}
+.container .row{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    
+    
+}
+.container .row .b{
+    border: 1px solid white;
+    margin-top: 40px;
+    padding: 3px;
+}
+.container .row .b h4{
+    margin-top: 10px;
+}
+
+.item p{
+    color:#e8b125 ;
+    line-height: 2;
+}
+.container .row .b:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
